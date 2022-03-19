@@ -1,0 +1,8 @@
+
+devops:
+   enableDevopsMode: true
+   enableBeanFilter: true
+   enableBeanSwap: true
+   customDir: D:/ideaprojects/hrms/hrms-ext-libs/
+   scanPackage: com.zhukovasky.hrms.serviceimpl
+   restFilterScanPackage: com.zhukovasky.hrms.rest.IndexRest;com.zhukovasky.hrms.rest.ChildIndexRest
