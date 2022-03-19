@@ -1,17 +1,13 @@
-package com.zhukovasky.hrms.rest;
+package com.zhukovasky.hrms.ext.rest;
 
 import com.zhukovasky.hrms.entity.LoginParams;
 import com.zhukovasky.hrms.service.AuthCheckService;
 import com.zhukovasky.hrms.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import org.springframework.context.annotation.Primary;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.annotation.Inherited;
 
 @RestController
 @RequestMapping("/index")
